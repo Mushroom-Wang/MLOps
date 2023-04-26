@@ -1,5 +1,8 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Learning Notes: Machine Learning with Rust
+
+## Linear Regression
+1. Make a CSV Reader
+2. Linear Regression with `rusty_machine`
 
 ## References
 
