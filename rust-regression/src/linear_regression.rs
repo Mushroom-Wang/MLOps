@@ -23,7 +23,7 @@ use read_csv::read_housing_csv;
 // create a function for using linear regression
 pub fn run() -> f64 {
     // Read input data
-    let ifile = "FULLPATHTODATASET";
+    let ifile = "/workspaces/MLOps/datasets/boston_house.csv";
     let mut input_data = read_housing_csv(&ifile);
 
     // data preprocessing: train test split
