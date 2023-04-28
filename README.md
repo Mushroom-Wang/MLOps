@@ -8,7 +8,10 @@
 ## Polars
 
 ## Linear Regression with Smartcore and Polars
+1. Read the input dataset and parse into a Polars Dataframe
+2. Extract the relevant training features and target
+3. Convert features and target to smartcore `DenseMatrix` format
+4. Run linear regression
 
 ## References
-
 * [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
